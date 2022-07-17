@@ -6,5 +6,5 @@ This repository contains all the supplementary materials that support the origin
 Patients were enrolled in the study after obtaining a written consent. After examining the medical history, the patients were enrolled at the time of sample collection.  
 
 **Research Ethics Approval:** <br/> 
-The protocols were approved by the institutional ethics committee at Central Police Hospital, Dhaka, and complied with the *International Conference on Harmonisation Guideline for Good Clinical Practice* and the *Declaration of Helsinki*. All patients provided written informed consent according to local guidelines. Reference number- CPHERC/R/02/2021. 
+The protocols were approved by the institutional ethics committee at Central Police Hospital, Dhaka, and complied with the *International Conference on Harmonisation Guideline for Good Clinical Practice* and the *Declaration of Helsinki*. All patients provided written informed consent according to local guidelines.  
 
