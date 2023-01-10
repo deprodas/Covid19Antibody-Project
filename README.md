@@ -2,11 +2,11 @@
 **Supporting Information** <br/> 
 This repository contains the supplementary materials to support the original research work published under the following title, *“Dynamic Antibody Response in SARS-CoV-2 Infected Patients and COVID-19 Vaccine Recipients, and Vaccine Effectiveness in Comorbid and Multimorbid Patients.”* The supplementary materials are anonymized and do not contain any direct or indirect identifiers in order to ensure patient confidentiality. 
 
-**Patient and Public Involvement Statement** <br/>
+>**Patient and Public Involvement Statement** <br/>
 Patients were enrolled in the study after obtaining a written consent. After examining the medical history, the patients were enrolled at the time of sample collection.
 
 
-**Research Ethics Approval** <br/> 
+>**Research Ethics Approval** <br/> 
 The protocols were approved by the institutional ethics committee at Central Police Hospital, Dhaka, and complied with the *International Conference on Harmonisation Guideline for Good Clinical Practice* and the *Declaration of Helsinki*. All patients provided written informed consent according to local guidelines.  
 
 This is a preprint article under [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4263948). It offers immediate access and currently under review in [*Heliyon, Cell Press*](https://www.cell.com/heliyon/home).
