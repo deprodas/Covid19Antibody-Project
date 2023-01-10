@@ -1,4 +1,4 @@
-# Dynamic Antibody Response in SARS-CoV-2 Infected Patients and COVID-19 Vaccine Recipients, and Vaccine Effectiveness in Comorbid and Multimorbid Patients 
+## Dynamic Antibody Response in SARS-CoV-2 Infected Patients and COVID-19 Vaccine Recipients, and Vaccine Effectiveness in Comorbid and Multimorbid Patients 
 
 [![DOI:10.2139/ssrn.4263948](http://img.shields.io/badge/DOI-10.2139/ssrn.4263948-B31B1B.svg)](http://dx.doi.org/10.2139/ssrn.4263948) 
 
