@@ -6,7 +6,7 @@
 This repository contains the supplementary materials to support the original research work published under the following title, *“Dynamic Antibody Response in SARS-CoV-2 Infected Patients and COVID-19 Vaccine Recipients, and Vaccine Effectiveness in Comorbid and Multimorbid Patients.”* The supplementary materials are anonymized and do not contain any direct or indirect identifiers in order to ensure patient confidentiality. 
 
 >**Patient and Public Involvement Statement** <br/>
-Patients were enrolled in the study after obtaining a written consent. Patients were enrolled at the time of sample collection after examining the medical history.
+All the participants were enlisted for the study after obtaining informed written consent. Patients were enrolled at the time of sample collection after examining their medical histories.
 
 
 >**Research Ethics Approval** <br/> 
