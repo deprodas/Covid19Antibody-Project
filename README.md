@@ -3,7 +3,7 @@
 [![DOI:10.2139/ssrn.4263948](http://img.shields.io/badge/DOI-10.2139/ssrn.4263948-B31B1B.svg)](http://dx.doi.org/10.2139/ssrn.4263948) 
 
 **Supporting Information** <br/> 
-This repository contains the supplementary materials to support the original research work published under the following title, *“Dynamic Antibody Response in SARS-CoV-2 Infected Patients and COVID-19 Vaccine Recipients, and Vaccine Effectiveness in Comorbid and Multimorbid Patients.”* The supplementary materials are anonymized and do not contain any direct or indirect identifiers in order to ensure patient confidentiality. 
+This repository contains the supplementary materials to support the original research work published under the following title, *“Dynamic antibody response in SARS-CoV-2 infected patients and COVID-19 vaccine recipients alongside vaccine effectiveness in comorbid and multimorbid groups.”* The supplementary materials are anonymized and do not contain any direct or indirect identifiers in order to ensure patient confidentiality. 
 
 >**Patient and Public Involvement Statement** <br/>
 All the participants were enlisted for the study after obtaining informed written consent. Patients were enrolled at the time of sample collection after examining their medical histories.
