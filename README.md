@@ -1,6 +1,6 @@
 ## Dynamic antibody response in SARS-CoV-2 infected patients and COVID-19 vaccine recipients alongside vaccine effectiveness in comorbid and multimorbid groups 
 
-[![DOI:10.2139/ssrn.4263948](http://img.shields.io/badge/DOI-10.2139/ssrn.4263948-B31B1B.svg)](http://dx.doi.org/10.2139/ssrn.4263948) 
+[![DOI:10.1016/j.heliyon.2023.e16349](http://img.shields.io/badge/DOI-10.1016/j.heliyon.2023.e16349-B31B1B.svg)](https://doi.org/10.1016/j.heliyon.2023.e16349) 
 
 **Description of the Repository** <br/> 
 This repository contains the supplementary materials to support the peer-reviewed original research article published under the following title, *“Dynamic antibody response in SARS-CoV-2 infected patients and COVID-19 vaccine recipients alongside vaccine effectiveness in comorbid and multimorbid groups.”* The supplementary materials are anonymized and do not contain any direct or indirect identifiers in order to ensure patient confidentiality. <br/> 
