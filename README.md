@@ -17,7 +17,7 @@ The article is published in [*Heliyon, Cell Press*](https://www.cell.com/heliyon
 * This research was funded by the Central Police Hospital, Dhaka, Bangladesh. 
 
 **Suggested Citation (Harvard)** <br/> 
-* Das, D. et al. (2023) ‘Dynamic antibody response in SARS-CoV-2 infected patients and COVID-19 vaccine recipients alongside vaccine effectiveness in comorbid and multimorbid groups’, Heliyon, 9(5). Available at: https://doi.org/10.1016/J.HELIYON.2023.E16349.   
+* Das, D. et al. (2023) ‘Dynamic antibody response in SARS-CoV-2 infected patients and COVID-19 vaccine recipients alongside vaccine effectiveness in comorbid and multimorbid groups’, Heliyon, 9(5). Available at: https://doi.org/10.1016/j.heliyon.2023.e16349.   
 
 _**Depro Das**_ <br/> 
 *Systems Cell-Signalling Laboratory <br/> 
