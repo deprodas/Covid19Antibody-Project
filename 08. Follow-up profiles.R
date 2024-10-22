@@ -25,10 +25,7 @@ pieK_IgG <- read.csv("Kidney_IgG Cluster_Details_SC.csv")
 kid_tot <- read.csv("Kidney_totalAb.csv") 
 pieK_tot <- read.csv("Kidney_totalAb Cluster_Details_SC.csv") 
 
-
-#===================== IgG Diabetes ===================================================================================
-
-#===================== Cluster 1 IgG ==================================================================================
+#===================== IgG Diabetes (Cluster 1) ==================================================================================
 
 diaIgG_clus1 <- dia_IgG %>% 
   filter(Clusters == "Cluster-1") %>% 
@@ -114,7 +111,7 @@ pieD_IgG %>%
 ggsave("Dia_IgG_clus1 (bar).pdf", width = 3, height = 2.5, units = "in") 
 
 
-#===================== Cluster 2 IgG ==================================================================================
+#===================== IgG Diabetes (Cluster 2) ==================================================================================
 
 diaIgG_clus2 <- dia_IgG %>% 
   filter(Clusters == "Cluster-2") %>% 
@@ -200,9 +197,7 @@ pieD_IgG %>%
 
 ggsave("Dia_IgG_clus2 (bar).pdf", width = 3, height = 2.5, units = "in") 
 
-
-
-#===================== Cluster 3 IgG =================================================================================
+#===================== IgG Diabetes (Cluster 3) =================================================================================
 
 diaIgG_clus3 <- dia_IgG %>% 
   filter(Clusters == "Cluster-3") %>% 
@@ -289,10 +284,7 @@ pieD_IgG %>%
 ggsave("Dia_IgG_clus3 (bar).pdf", width = 3, height = 2.5, units = "in") 
 
 
-
-#===================== Total Ab Diabetes =============================================================================
-
-#===================== Cluster 1 Total Ab ============================================================================
+#===================== Total Ab Diabetes (Cluster 1) ============================================================================
 
 diatot_clus1 <- dia_tot %>% 
   filter(Clusters == "Cluster-1") %>% 
@@ -379,8 +371,7 @@ pieD_tot %>%
 ggsave("Dia_tot_clus1 (bar).pdf", width = 3, height = 2.5, units = "in") 
 
 
-
-#===================== Cluster 2 Total Ab ============================================================================
+#===================== Total Ab Diabetes (Cluster 2) ============================================================================
 
 diatot_clus2 <- dia_tot %>% 
   filter(Clusters == "Cluster-2") %>% 
@@ -468,7 +459,7 @@ pieD_tot %>%
 ggsave("Dia_tot_clus2 (bar).pdf", width = 3, height = 2.5, units = "in") 
 
 
-#===================== Cluster 3 Total Ab ============================================================================ 
+#===================== Total Ab Diabetes (Cluster 3) ============================================================================ 
 
 diatot_clus3 <- dia_tot %>% 
   filter(Clusters == "Cluster-3") %>% 
@@ -554,9 +545,7 @@ pieD_tot %>%
 ggsave("Dia_tot_clus3 (bar).pdf", width = 3, height = 2.5, units = "in") 
 
 
-#===================== IgG Kidney Disease ============================================================================ 
-
-#===================== Cluster 1 IgG ================================================================================= 
+#===================== IgG Kidney Disease (Cluster 1) ================================================================================= 
 
 kidIgG_clus1 <- kid_IgG %>% 
   filter(Clusters == "Cluster-1") %>% 
@@ -641,8 +630,7 @@ pieK_IgG %>%
 ggsave("Kid_IgG_clus1 (bar).pdf", width = 3, height = 2.5, units = "in") 
 
 
-
-#===================== Cluster 2 IgG ================================================================================== 
+#===================== IgG Kidney Disease (Cluster 2) ================================================================================== 
 
 kidIgG_clus2 <- kid_IgG %>% 
   filter(Clusters == "Cluster-2") %>% 
@@ -729,7 +717,7 @@ ggsave("Kid_IgG_clus2 (bar).pdf", width = 3, height = 2.5, units = "in")
 
 
 
-#===================== Cluster 3 IgG ================================================================================== 
+#===================== IgG Kidney Disease (Cluster 3) ================================================================================== 
 
 kidIgG_clus3 <- kid_IgG %>% 
   filter(Clusters == "Cluster-3") %>% 
@@ -822,10 +810,7 @@ pieK_IgG %>%
 ggsave("Kid_IgG_clus3 (bar).pdf", width = 3, height = 2.5, units = "in") 
 
 
-
-#===================== Total Ab Kidney Disease ======================================================================
-
-#===================== Cluster 1 Total Ab ===========================================================================
+#===================== Total Ab Kidney Disease (Cluster 1) ===========================================================================
 
 kidtot_clus1 <- kid_tot %>% 
   filter(Clusters == "Cluster-1") %>% 
@@ -911,7 +896,7 @@ ggsave("Kid_tot_clus1 (bar).pdf", width = 3, height = 2.5, units = "in")
 
 
 
-#===================== Cluster 2 Total Ab ===========================================================================
+#===================== Total Ab Kidney Disease (Cluster 2) ===========================================================================
 
 kidtot_clus2 <- kid_tot %>% 
   filter(Clusters == "Cluster-2") %>% 
@@ -997,8 +982,7 @@ pieK_tot %>%
 ggsave("Kid_tot_clus2 (bar).pdf", width = 3, height = 2.5, units = "in") 
 
 
-
-#===================== Cluster 3 Total Ab ===========================================================================
+#===================== Total Ab Kidney Disease (Cluster 3) ===========================================================================
 
 kidtot_clus3 <- kid_tot %>% 
   filter(Clusters == "Cluster-3") %>% 
@@ -1067,7 +1051,6 @@ G_pieK_tot_clus3 <- ggplot(pieK_tot_clus3, aes(x = "" , y = Percentage, fill = f
 G_pieK_tot_clus3 
 
 ggsave("Kid_tot_clus3 (pie).pdf", G_pieK_tot_clus3, width = 4, height = 4, units = "in") 
-
 
 
 # Stacked Bar Plot - Cluster 3 Total Ab 

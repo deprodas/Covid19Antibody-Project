@@ -6,9 +6,6 @@ library(ggrepel)
 library(ggplot2)
 library(RColorBrewer) 
 
-
-################################ IgG Diabetes #############################################
-
 # Data Import 
 
 pieD_IgG <- read.csv("Diabetes_IgG Cluster_Details_SC.csv") %>% 
@@ -46,8 +43,9 @@ pieK_tot <- read.csv("Kidney_totalAb Cluster_Details_SC.csv") %>%
 # write.csv(pieK_tot, file = "Kidney_totalAb Cluster_Details_SC.csv")  
 
 
+#===================== IgG Diabetes =========================================================================== 
 
-############################### Cluster 1 (30) IgG ########################################
+# Cluster 1 (30) IgG 
 
 # Percentage - Cluster 1 (30) IgG 
 pieD_IgG_clus1 <- pieD_IgG %>% 
@@ -67,13 +65,11 @@ G_pieD_IgG_clus1 <- ggplot(pieD_IgG_clus1, aes(x = "" , y = Percentage, fill = f
                    size = 4.5, nudge_x = 1, show.legend = FALSE) +
   guides(fill = guide_legend(title = "Group")) +
   theme_void() 
-
 G_pieD_IgG_clus1
-
 ggsave("Dia_IgG_clus1 (pie).pdf", G_pieD_IgG_clus1, width = 4, height = 4, units = "in") 
 
 
-############################### Cluster 2 (28) IgG ############################################
+# Cluster 2 (28) IgG
 
 # Percentage - Cluster 2 (28) IgG  
 pieD_IgG_clus2 <- pieD_IgG %>% 
@@ -93,13 +89,11 @@ G_pieD_IgG_clus2 <- ggplot(pieD_IgG_clus2, aes(x = "" , y = Percentage, fill = f
                    size = 4.5, nudge_x = 1, show.legend = FALSE) +
   guides(fill = guide_legend(title = "Group")) +
   theme_void() 
-
 G_pieD_IgG_clus2
-
 ggsave("Dia_IgG_clus2 (pie).pdf", G_pieD_IgG_clus2, width = 4, height = 4, units = "in") 
 
 
-################################# Cluster 3 (29) IgG ######################################
+# Cluster 3 (29) IgG 
 
 # Percentage - Cluster 3 (29) IgG 
 pieD_IgG_clus3 <- pieD_IgG %>% 
@@ -119,18 +113,13 @@ G_pieD_IgG_clus3 <- ggplot(pieD_IgG_clus3, aes(x = "" , y = Percentage, fill = f
                    size = 4.5, nudge_x = 1, show.legend = FALSE) +
   guides(fill = guide_legend(title = "Group")) +
   theme_void() 
-
 G_pieD_IgG_clus3
-
 ggsave("Dia_IgG_clus3 (pie).pdf", G_pieD_IgG_clus3, width = 4, height = 4, units = "in") 
 
 
+#===================== Total Ab Diabetes  ===================================================================== 
 
-############################## Total Ab Diabetes ##########################################
-
-
-
-############################# Cluster 1 (30) Total Ab ###################################### 
+# Cluster 1 (30) Total Ab
 
 # Percentage - Cluster 1 (30) Total Ab 
 pieD_tot_clus1 <- pieD_tot %>% 
@@ -150,13 +139,11 @@ G_pieD_tot_clus1 <- ggplot(pieD_tot_clus1, aes(x = "" , y = Percentage, fill = f
                    size = 4.5, nudge_x = 1, show.legend = FALSE) +
   guides(fill = guide_legend(title = "Group")) +
   theme_void() 
-
 G_pieD_tot_clus1
-
 ggsave("Dia_tot_clus1 (pie).pdf", G_pieD_tot_clus1, width = 4, height = 4, units = "in") 
 
 
-############################## Cluster 2 (29) Total Ab #####################################
+# Cluster 2 (29) Total Ab 
 
 # Percentage - Cluster 2 (29) Total Ab 
 pieD_tot_clus2 <- pieD_tot %>% 
@@ -176,13 +163,11 @@ G_pieD_tot_clus2 <- ggplot(pieD_tot_clus2, aes(x = "" , y = Percentage, fill = f
                    size = 4.5, nudge_x = 1, show.legend = FALSE) +
   guides(fill = guide_legend(title = "Group")) +
   theme_void() 
-
 G_pieD_tot_clus2
-
 ggsave("Dia_tot_clus2 (pie).pdf", G_pieD_tot_clus2, width = 4, height = 4, units = "in") 
 
 
-############################## Cluster 3 (28) Total Ab ###################################### 
+# Cluster 3 (28) Total Ab 
 
 # Percentage - Cluster 3 (28) Total Ab  
 pieD_tot_clus3 <- pieD_tot %>% 
@@ -202,17 +187,13 @@ G_pieD_tot_clus3 <- ggplot(pieD_tot_clus3, aes(x = "" , y = Percentage, fill = f
                    size = 4.5, nudge_x = 1, show.legend = FALSE) +
   guides(fill = guide_legend(title = "Group")) +
   theme_void() 
-
 G_pieD_tot_clus3 
-
 ggsave("Dia_tot_clus3 (pie).pdf", G_pieD_tot_clus3, width = 4, height = 4, units = "in") 
 
 
-################################ IgG Kidney Disease ####################################### 
+#===================== IgG Kidney Disease ===================================================================== 
 
-
-
-############################## Cluster 1 (36) IgG ######################################### 
+# Cluster 1 (36) IgG 
 
 # Percentage - Cluster 1 (36) IgG  
 pieK_IgG_clus1 <- pieK_IgG %>% 
@@ -232,13 +213,11 @@ G_pieK_IgG_clus1 <- ggplot(pieK_IgG_clus1, aes(x = "" , y = Percentage, fill = f
                    size = 4.5, nudge_x = 1, show.legend = FALSE) +
   guides(fill = guide_legend(title = "Group")) +
   theme_void() 
-
 G_pieK_IgG_clus1
-
 ggsave("Kid_IgG_clus1 (pie).pdf", G_pieK_IgG_clus1, width = 4, height = 4, units = "in") 
 
 
-############################# Cluster 2 (34) IgG ##############################################
+# Cluster 2 (34) IgG 
 
 # Percentage - Cluster 2 (34) IgG 
 pieK_IgG_clus2 <- pieK_IgG %>% 
@@ -258,13 +237,11 @@ G_pieK_IgG_clus2 <- ggplot(pieK_IgG_clus2, aes(x = "" , y = Percentage, fill = f
                    size = 4.5, nudge_x = 1, show.legend = FALSE) +
   guides(fill = guide_legend(title = "Group")) +
   theme_void() 
-
 G_pieK_IgG_clus2
-
 ggsave("Kid_IgG_clus2 (pie).pdf", G_pieK_IgG_clus2, width = 4, height = 4, units = "in") 
 
 
-############################## Cluster 3 (33) IgG ##############################################
+# Cluster 3 (33) IgG 
 
 # Percentage - Cluster 3 (33) IgG 
 pieK_IgG_clus3 <- pieK_IgG %>% 
@@ -284,17 +261,13 @@ G_pieK_IgG_clus3 <- ggplot(pieK_IgG_clus3, aes(x = "" , y = Percentage, fill = f
                    size = 4.5, nudge_x = 1, show.legend = FALSE) +
   guides(fill = guide_legend(title = "Group")) +
   theme_void() 
-
 G_pieK_IgG_clus3 
-
 ggsave("Kid_IgG_clus3 (pie).pdf", G_pieK_IgG_clus3, width = 4, height = 4, units = "in") 
 
 
+#===================== Total Ab Kidney Disease ================================================================  
 
-################################ Total Ab Kidney Disease ###################################### 
-
-
-############################## Cluster 1 (33) Total Ab ######################################## 
+# Cluster 1 (33) Total Ab
 
 # Percentage - Cluster 1 (33) Total Ab 
 pieK_tot_clus1 <- pieK_tot %>% 
@@ -314,13 +287,11 @@ G_pieK_tot_clus1 <- ggplot(pieK_tot_clus1, aes(x = "" , y = Percentage, fill = f
                    size = 4.5, nudge_x = 1, show.legend = FALSE) +
   guides(fill = guide_legend(title = "Group")) +
   theme_void() 
-
 G_pieK_tot_clus1
-
 ggsave("Kid_tot_clus1 (pie).pdf", G_pieK_tot_clus1, width = 4, height = 4, units = "in") 
 
 
-############################### Cluster 2 (29) Total Ab #####################################
+# Cluster 2 (29) Total Ab 
 
 # Percentage - Cluster 2 (29) Total Ab 
 pieK_tot_clus2 <- pieK_tot %>% 
@@ -340,13 +311,11 @@ G_pieK_tot_clus2 <- ggplot(pieK_tot_clus2, aes(x = "" , y = Percentage, fill = f
                    size = 4.5, nudge_x = 1, show.legend = FALSE) +
   guides(fill = guide_legend(title = "Group")) +
   theme_void() 
-
 G_pieK_tot_clus2 
-
 ggsave("Kid_tot_clus2 (pie).pdf", G_pieK_tot_clus2, width = 4, height = 4, units = "in") 
 
 
-########################### Cluster 3 (36) Total Ab ########################################## 
+# Cluster 3 (36) Total Ab 
 
 # Percentage - Cluster 3 (36) Total Ab 
 pieK_tot_clus3 <- pieK_tot %>% 
@@ -366,16 +335,5 @@ G_pieK_tot_clus3 <- ggplot(pieK_tot_clus3, aes(x = "" , y = Percentage, fill = f
                    size = 4.5, nudge_x = 1, show.legend = FALSE) +
   guides(fill = guide_legend(title = "Group")) +
   theme_void() 
-
 G_pieK_tot_clus3 
-
 ggsave("Kid_tot_clus3 (pie).pdf", G_pieK_tot_clus3, width = 4, height = 4, units = "in") 
-
-
-
-
-
-
-
-
-
